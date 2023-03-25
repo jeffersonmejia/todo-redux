@@ -8,7 +8,7 @@
 
 ## Installation ⚙️
 
-- You'll need install [npm]("https://nodejs.org/en/download") 18 or later
+- You'll need install [npm](https://nodejs.org/en/download) 18 or later
 - After, install the project packages
 
   `npm install`
