@@ -9,10 +9,10 @@ export default function App() {
 		<div className="main">
 			<BrowserRouter>
 				<Routes>
-					<Route path="/create" element={<TaskForm />} />
-					<Route path="/edit/:id" element={<TaskForm />} />
-					<Route path="/tasks" element={<TaskList />} />
-					<Route path="/" element={<Home />} />
+					<Route path="/todo-redux/create" element={<TaskForm />} />
+					<Route path="/todo-redux/edit/:id" element={<TaskForm />} />
+					<Route path="/todo-redux/tasks" element={<TaskList />} />
+					<Route path="/todo-redux/" element={<Home />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
